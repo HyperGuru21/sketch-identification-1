@@ -1,40 +1,37 @@
 body{
-    background-color: yellow;
+    background-color: aquamarine;
+}
+h1{
+    background-color: aqua;
+    
 }
 
-h1{
-    background-color: white;
+#timer{
+    float: right;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+p{
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 #showsketch{
     float: right;
 }
 
-#showsketch:hover{
-    background-color: darkblue;
-}
-
-p{
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    padding-top: 10px;
-}
-#clearcanvas:hover{
-
-    background-color: rgb(83, 18, 18);
-
-}
-
 canvas{
     animation-name: canvas;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border: 5px solid white ;
-    border-radius: 20px;
+    animation-iteration-count: infinite ;
     margin-top: 50px;
 }
 @keyframes canvas{
-    from{box-shadow: 1px 1px 38px gray;}
-    to{box-shadow: 1px 1px 38px black;}
+    from{box-shadow: 1px 1px 38px green;}
+    to{box-shadow: 1px 1px 38px lime;}
 }
